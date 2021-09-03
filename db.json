@@ -1,0 +1,15 @@
+{
+  "users": [
+      {
+          "name": "Leanne Graham",
+          "username": "Bret",
+          "email": "Sincere@april.biz"
+      }
+  ],
+  "posts": [
+      {
+          "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+          "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit"
+      }
+  ]
+}

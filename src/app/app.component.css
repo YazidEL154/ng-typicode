@@ -1,3 +1,24 @@
-body{
-    background-color: bisque;
+.nav{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+a:hover{
+    font-weight: bolder;
+    color:burlywood;
+}
+.li{
+    margin:10px;
 }

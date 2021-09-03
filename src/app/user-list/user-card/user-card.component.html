@@ -1,13 +1,15 @@
 <div class="card">
-    <div class="card-header">Jean michel à la bourre
+    <div class="card-header">{{user.name}} | {{user.username}}
     </div>
     <div class="card-body">
       <ul>
-        <li>Métier : être à la bourre</li>
-        <li>Adresse : 16 Rue du stress au matin, retardVille</li>
+        <li>Entreprise: {{ user.company.name }}</li>
+        <li>Adresse: {{ user.address.street }} ,{{user.address.zipcode}}  {{user.address.city }}</li>
+        <li>Site : {{user.website}}</li>
       </ul>
     </div>
     <div class="card-footer">
-      <a href="mailto:jean.michel@alabourre.com">Contacter jean michel</a>
+        <span><a [href]="'mailto:'+ user.email">Envoyer un mail</a></span>
+        <span><a [href]="'tel:'+ user.phone">Appeler {{user.name}}</a></span>
     </div>
   </div>
